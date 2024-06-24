@@ -11,14 +11,14 @@ using mysql bitch
 1. Clone the repository
 
 ```bash	
-git clone https://github.com/josiiq/odontogram-with-react.git
+$ git clone https://github.com/josiiq/odontogram-with-react.git
 ```
 
 2. Install the dependencies
 
 ```bash
-cd backend
-npm install
+$ cd backend
+$ npm install
 ```
 
 3. Create a `.env` file in the root directory with the following content:
@@ -34,7 +34,7 @@ DB_NAME=odontogram
 4. Start the server
 
 ```bash
-npm start
+$ npm run start
 ```
 
 ### Endpoints
@@ -51,14 +51,12 @@ npm start
   - Updates a patient by IDÇ
 
 ### Database
+| Patients | Odontograms | Teeth | Tooth_Status | Treatments |
+| -------- | ----------- | ----- | ------------ | ---------- |
+| patient_id | odontogram_id | tooth_id | status_id | treatment_id |
+| first_name | patient_id | tooth_number | status_name | treatment_name |
+| last_name | date | tooth_position | description | description |
+| notes |
 
-|Patients    |   Odontograms |      Teeth |      Tooth_Status |      Treatments|
-|---------    |  -----------      ------      -------------  |    ----------|
-|patient_id    | odontogram_id|    tooth_id|    status_id     |     treatment_id|
-|first_name     |patient_id    |   tooth_number| status_name   |    treatment_name|
-|last_name      |date           |  tooth_position| description  |   description|
-|date_of_birth | notes|
-|address|
-|phone_number|
-|email|
+
 
