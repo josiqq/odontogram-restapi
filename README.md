@@ -51,12 +51,12 @@ $ npm run start
   - Updates a patient by IDÇ
 
 ### Database
-| Patients | Odontograms | Teeth | Tooth_Status | Treatments |
-| -------- | ----------- | ----- | ------------ | ---------- |
-| patient_id | odontogram_id | tooth_id | status_id | treatment_id |
-| first_name | patient_id | tooth_number | status_name | treatment_name |
-| last_name | date | tooth_position | description | description |
-|    |notes | | | |
+| Patients   | Odontograms   | Teeth          | Tooth_Status | Treatments     |
+| ---------- | -----------   | -----          | ------------ | ----------     |
+| patient_id | odontogram_id | tooth_id       | status_id    | treatment_id   |
+| first_name | patient_id    | tooth_number   | status_name  | treatment_name |
+| last_name  | date          | tooth_position | description  | description    |
+|            | notes         |                |              |                |
 
 
 
